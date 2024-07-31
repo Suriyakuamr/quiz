@@ -1,0 +1,104 @@
+*
+{
+    overflow-x: hidden;
+}
+.container
+{
+     width: 100%;
+      min-height: 100vh;
+     background-color:  rgb(80, 212, 206);
+     padding: 1px;
+}
+.content
+{
+    width: 100%;
+    max-width: 440px;
+    background-color:  rgb(188, 236, 233); 
+    margin: 80px auto 80px;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+}
+.content h3{
+    border-bottom: 3px solid  rgb(80, 212, 206);
+    font-size: 29px;
+    padding-bottom: 1px;          
+}
+.quiz
+{
+    padding: 1px 0;
+}
+.quiz h4{
+    font-size: 20px;
+}
+ .btn
+{
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+    background-color: white;
+      border: 1px solid    rgb(80, 212, 206);
+     
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+      transition: all 0.3s;
+}
+.btn:hover:not([disabled])
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+#next
+{
+    padding: 10px;
+    margin: 20px auto 0;
+     display: block;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+    background-color: rgb(80, 212, 206);
+    border: 0;       
+    outline: none;
+    width: 20%;
+    text-align: center;
+    border-radius: 4px;   
+}
+.correct
+{
+    background-color: rgb(144, 233, 144);
+}
+.incorrect
+{
+    background-color: rgb(241, 168, 168);
+}
+
+@media (max-width:768px)
+{
+ 
+    .content
+{
+    width: 80%;
+    max-width: 440px;
+    background-color:  rgb(188, 236, 233); 
+    margin: 80px auto 80px;
+    padding: 20px 20px 30px;
+    border-radius: 10px;
+}
+#next
+{
+    padding: 10px;
+    margin: 20px auto 0;
+     display: block;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+    background-color: rgb(80, 212, 206);
+    border: 0;       
+    outline: none;
+    width: 70%;
+    text-align: center;
+    border-radius: 4px;   
+}
+}
